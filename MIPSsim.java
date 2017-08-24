@@ -1,11 +1,10 @@
-//On my honor, I have neither given nor received unauthorized aid on this assignment
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MIPSsim{//class for this project
+public class MIPSsim{
 
-	public static void main(String[] args){//need to implement argv
+	public static void main(String[] args){
 		Scanner userInput = new Scanner(System.in);//used to get input from the user such as name of text file
 		String file = "";//for the name of the input file for this program
 		String nameOfInstruction = "";//for the name of each instruction
